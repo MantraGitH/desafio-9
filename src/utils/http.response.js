@@ -7,16 +7,15 @@ const HttpStatus = {
 };
 
 export const errorsDictionary = {
-  ERROR_CREATE_ITEM: 'Error al crear',
-  ERROR_UPDATE_ITEM: 'Error al actualizar',
-  ERROR_DELETE_ITEM: 'Error al borrar',
-  ERROR_ADD_TO_CART: 'Error al añadir al carrito',
-  ERROR_DELETE_TO_CART: 'Error al borrar del carrito',
-  ERROR_CREATE_USER: 'Error al crear el usuario',
-  ERROR_LOGIN: 'Error al logear',
-  ERROR_DELETE_CART: 'Error al borrar carrito',
-  
-}
+  ERROR_CREATE_ITEM: "Error al crear",
+  ERROR_UPDATE_ITEM: "Error al actualizar",
+  ERROR_DELETE_ITEM: "Error al borrar",
+  ERROR_ADD_TO_CART: "Error al añadir al carrito",
+  ERROR_DELETE_TO_CART: "Error al borrar del carrito",
+  ERROR_CREATE_USER: "Error al crear el usuario",
+  ERROR_LOGIN: "Error al logear",
+  ERROR_DELETE_CART: "Error al borrar carrito",
+};
 
 export class HttpResponse {
   Ok(res, data) {
