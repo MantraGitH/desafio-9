@@ -1,0 +1,1 @@
+de momento  sin user repository y sin hb para esta entrega ya que no fueron obligatorias
